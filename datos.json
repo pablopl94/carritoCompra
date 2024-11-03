@@ -1,0 +1,20 @@
+{
+    "currency": "€",
+    "products": [
+      {
+        "SKU": "0K3QOSOV4V",
+        "title": "iPhone 13 Pro",
+        "price": "938.99"
+      },
+      {
+        "SKU": "TGD5XORY1L",
+        "title": "Cargador",
+        "price": "49.99"
+      },
+      {
+        "SKU": "IQKW9BQ9F3",
+        "title": "Funda de piel",
+        "price": "79.99"
+      }
+    ]
+  }
