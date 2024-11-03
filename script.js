@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     try {
         console.log("Intentando cargar datos desde JSONBlob con AllOrigins...");
-        const response = await fetchWithTimeout(proxyUrl, 15000); // Intento de conexión con un tiempo maximo de 15 segundos
+        const response = await fetchWithTimeout(proxyUrl, 5000); // Intento de conexión con un tiempo maximo de 15 segundos
 
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
